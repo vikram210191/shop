@@ -1,0 +1,113 @@
+body{
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+h1{
+  font-family: 'Titillium Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-weight: 900;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:10px 0 0 10px;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.2rem;
+}
+
+
+
+/* download-button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.button-black:hover{
+  background-color: inherit;
+}
+
+/* title */
+
+#title{
+    background-image: url(bg.jpg);
+}
+.title-main{
+  color: #ffff;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 15% 25%;
+}
+
+
+/* features */
+#features{
+  background-color: #212121;
+  color: #ffff;
+  padding: 10% 15%;
+}
+.features-intro{
+  padding: 7% 15% 7% 15%;
+  font-size: 1.5rem;
+}
+
+.icon:hover{
+  color: #0d7377;
+}
+
+
+/* pics */
+
+.pics{
+  padding-bottom: 10%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.signup-btn:hover{
+  color: #0d7377;
+}
+/* call to action */
+
+#cta{
+  color: #ffff;
+  background-color: #212121;
+  padding: 3% 15%;
+}
+
+
+
+/* footer */
+#footer{
+  font-family: 'Montserrat-black';
+}
+.foot{
+  margin: 30px 60px;
+  color: #161616;
+}
+.foot:hover{
+  color: #0d7377
+}
