@@ -90,6 +90,8 @@ h3{
 .signup-btn:hover{
   color: #0d7377;
 }
+
+
 /* call to action */
 
 #cta{
@@ -110,4 +112,16 @@ h3{
 }
 .foot:hover{
   color: #0d7377
+}
+
+
+
+
+
+/* BILLING DOC */
+
+.bill-head{
+  color: #ffff;
+  margin: 5% auto;
+  background-color: #212121
 }
