@@ -111,7 +111,7 @@ h3{
   color: #161616;
 }
 .foot:hover{
-  color: #0d7377
+  color: #0d7377;
 }
 
 
@@ -123,5 +123,26 @@ h3{
 .bill-head{
   color: #ffff;
   margin: 5% auto;
-  background-color: #212121
+  background-color: #212121;
+}
+.tab{
+  text-align: center;
+  margin: auto;
+}
+.generate{
+  margin-top: 40px;
+  background-color: #212121;
+}
+.generate:hover{
+  color: inherit;
+}
+.shop-item-details{
+  display: inline-block;
+}
+.shop-item{
+  margin: 20px auto 20px auto;
+}
+.cart-total{
+  margin: 60px auto;
+  font-size: 4rem;;
 }

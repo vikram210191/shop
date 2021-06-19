@@ -1,6 +1,17 @@
-var array = []
-var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
 
-for (var i = 0; i < checkboxes.length; i++) {
-  array.push(checkboxes[i].value)
+let billArray = [];
+var bill = 0;
+function addPrice(a){
+    console.log(billArray.push(a));
+    console.log(billArray);
+
+}
+
+function genBill(){
+    
+for(i=0;i<billArray.length;i++){
+    bill = bill + billArray[i];
+}
+console.log(bill);
+document.querySelector('.cart-total-price').innerHTML= bill;
 }
