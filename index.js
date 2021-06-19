@@ -13,5 +13,5 @@ for(i=0;i<billArray.length;i++){
     bill = bill + billArray[i];
 }
 console.log(bill);
-document.querySelector('.cart-total-price').innerHTML= bill;
+document.querySelector('.cart-total-price').innerHTML=" ₹"+ bill;
 }
