@@ -38,190 +38,122 @@
         <h3>MENU</h3>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="shop-items">
-            <h4>HAIR SERVICES</h4>
-            <div class="shop-item">
-                <span class="shop-item-title">Blow Dry</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹50</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(50)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Blow Dry With Curling Iron/Flat Iron</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹100</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(100)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Hair Cut With Curling Iron/Flat Iron</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹600</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(600)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Mens Hair Cut</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹300</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(300)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Mens Formal Design</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹600</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(600)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Mens Hair Makeover(3-Formal Haircut Package)</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹1000</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(1000)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Mens Hair Makeover(5-Formal Haircut Package)</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹1300</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(1300)" type="button">ADD</button>
-                </div>
-            </div>
+        <div class="col-lg-3 col-md-6">
+          <h4>HAIR SERVICES</h4>
+          <table class="tab">
+            <tr>
+              <td>Blow Dry</td>
+              <td>₹50 <input type="checkbox" name="blowDry" onclick="addPrice(50)"></td>
+            </tr>
+            <tr>
+              <td>Blow Dry with Curling Iron/Flat Iron</td>
+              <td>₹100 <input type="checkbox" name="blowDry2" onclick="addPrice(100)"></td>
+            </tr>
+            <tr>
+              <td>Hair Cut With Curling/Flat Iron</td>
+              <td>₹600 <input type="checkbox" name="mensHairCut" onclick="addPrice(600)"></td>
+            </tr>
+            <tr>
+              <td>Mens Hair Cut</td>
+              <td>₹300 <input type="checkbox" name="hairCut" onclick="addPrice(300)"></td>
+            </tr>
+            <tr>
+              <td>Mens Formal Hair Cut</td>
+              <td>₹500 <input type="checkbox" name="formalHairCut" onclick="addPrice(500)"></td>
+            </tr>
+            <tr>
+              <td>Mens Hair Makeover(3-Haircut)</td>
+              <td>₹1000 <input type="checkbox" name="mensTier01Pack" onclick="addPrice(1000)"></td>
+            </tr>
+            <tr>
+              <td>Mens Hair Makeover(5-Haircut)</td>
+              <td>₹1500 <input type="checkbox" name="formalHairCut" onclick="addPrice(1500)"></td>
+            </tr>
+          </table>
           </div>
+        <div class="col-lg-3 col-md-6">
+          <h4>COLOUR</h4>
+          <table class="tab">
+            <tr>
+              <td>Basic Tint</td>
+              <td>₹300 <input type="checkbox" name="basicTint" onclick="addPrice(300)"></td>
+            </tr>
+            <tr>
+              <td>Organic color</td>
+              <td>₹500 <input type="checkbox" name="organicColor"  onclick="addPrice(500)"></td>
+            </tr>
+            <tr>
+              <td>Full Highlights</td>
+              <td>₹2000 <input type="checkbox" name="fullHighlights" onclick="addPrice(2000)"></td>
+            </tr>
+            <tr>
+              <td>Partial Highlights</td>
+              <td>₹1500 <input type="checkbox" name="partialHiglights" onclick="addPrice(1500)"></td>
+            </tr>
+            <tr>
+              <td>Gloss</td>
+              <td>₹400 <input type="checkbox" name="gloss" onclick="addPrice(400)"></td>
+            </tr>
+            <tr>
+              <td>Conditioning Treatment</td>
+              <td>₹200 <input type="checkbox" name="Conditioning" onclick="addPrice(200)"></td>
+            </tr>
+          </table>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="shop-items">
-            <h4>COLOUR</h4>
-            <div class="shop-item">
-                <span class="shop-item-title">Basic Tint</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹200</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(200)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Organic Colour</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹500</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(500)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Full Highlights</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹2000</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(2000)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Partial Highlights</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹1500</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(1500)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Gloss</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹400</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(400)" type="button">ADD</button>
-                </div>
-            </div>
-            <div class="shop-item">
-                <span class="shop-item-title">Conditioning Treatment</span>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">₹200</span>
-                    <button class="btn btn-primary shop-item-button" onclick="addPrice(200)" type="button">ADD</button>
-                </div>
-            </div>
-            <br><br>
-            <h4>TEXTURIZING</h4>
-          <div class="shop-item">
-              <span class="shop-item-title">Rebonding</span>
-              <div class="shop-item-details">
-                  <span class="shop-item-price">₹3000</span>
-                  <button class="btn btn-primary shop-item-button" onclick="addPrice(3000)" type="button">ADD</button>
-              </div>
-          </div>
-          <div class="shop-item">
-              <span class="shop-item-title">Rebonding + Partial Highlights</span>
-              <div class="shop-item-details">
-                  <span class="shop-item-price">₹4000</span>
-                  <button class="btn btn-primary shop-item-button" onclick="addPrice(4000)" type="button">ADD</button>
-              </div>
-          </div>
-          <div class="shop-item">
-              <span class="shop-item-title">Rebonding + Full Highlights</span>
-              <div class="shop-item-details">
-                  <span class="shop-item-price">₹5000</span>
-                  <button class="btn btn-primary shop-item-button" onclick="addPrice(5000)" type="button">ADD</button>
-              </div>
-          </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-3 col-md-6">
           <h4>NAIL SERVICES</h4>
-          <div class="shop-item">
-              <span class="shop-item-title">Manicures</span>
-              <div class="shop-item-details">
-                  <span class="shop-item-price">₹200</span>
-                  <button class="btn btn-primary shop-item-button" onclick="addPrice(200)" type="button">ADD</button>
-              </div>
-          </div>
-          <div class="shop-item">
-              <span class="shop-item-title">Manicures + Padicures</span>
-              <div class="shop-item-details">
-                  <span class="shop-item-price">₹500</span>
-                  <button class="btn btn-primary shop-item-button" onclick="addPrice(500)" type="button">ADD</button>
-              </div>
-          </div>
-          <div class="shop-item">
-              <span class="shop-item-title">Acrylic Full Set(Nail Art)</span>
-              <div class="shop-item-details">
-                  <span class="shop-item-price">₹500</span>
-                  <button class="btn btn-primary shop-item-button" onclick="addPrice(500)" type="button">ADD</button>
-              </div>
-          </div>
-          <div class="shop-item">
-              <span class="shop-item-title">Pink and White Full Set(Nail Art)</span>
-              <div class="shop-item-details">
-                  <span class="shop-item-price">₹400</span>
-                  <button class="btn btn-primary shop-item-button" onclick="addPrice(400)" type="button">ADD</button>
-              </div>
-          </div>
-          <div class="shop-item">
-              <span class="shop-item-title">Acrylic Fill</span>
-              <div class="shop-item-details">
-                  <span class="shop-item-price">₹300</span>
-                  <button class="btn btn-primary shop-item-button" onclick="addPrice(300)" type="button">ADD</button>
-              </div>
-          </div>
-          <div class="shop-item">
-              <span class="shop-item-title">Pink and White Fill</span>
-              <div class="shop-item-details">
-                  <span class="shop-item-price">₹350</span>
-                  <button class="btn btn-primary shop-item-button" onclick="addPrice(350)" type="button">ADD</button>
-              </div>
-          </div>
+          <table class="tab">
+            <tr>
+              <td>Manicures</td>
+              <td>₹200 <input type="checkbox" name="Manicures" onclick="addPrice(200)"></td>
+            </tr>
+            <tr>
+              <td>Acrylic Full Set(Nail Art)</td>
+              <td>₹500 <input type="checkbox" name="AcrylicFullSet" onclick="addPrice(500)"></td>
+            </tr>
+            <tr>
+              <td>Acrylic Fill</td>
+              <td>₹300 <input type="checkbox" name="AcrylicFill" onclick="addPrice(300)"></td>
+            </tr>
+            <tr>
+              <td>Pink and White Full Set(nail Art)</td>
+              <td>₹400 <input type="checkbox" name="Pedicure" onclick="addPrice(400)"></td>
+            </tr>
+            <tr>
+              <td>Manicure + Pedicure</td>
+              <td>₹500 <input type="checkbox" name="mani+padi" onclick="addPrice(500)"></td>
+            </tr>
+          </table>
         </div>
+        <div class="col-lg-3 col-md-6">
+          <h4>TEXTURIZING</h4>
+          <table class="tab">
+            <tr>
+              <td>Rebonding</td>
+              <td>₹3000 <input type="checkbox" name="rebonding" onclick="addPrice(3000)"></td>
+            </tr>
+            <tr>
+              <td>Rebonding + Partial Highlights</td>
+              <td>₹4000 <input type="checkbox" name="reb+ParHigh" onclick="addPrice(4000)"></td>
+            </tr>
+            <tr>
+              <td>Rebonding + Full Highlights</td>
+              <td>₹5000 <input type="checkbox" name="reb+FullHigh" onclick="addPrice(5000)"></td>
+            </tr>
+          </table>
       </div>
-    </section>
-
-    <section class="container content-section">
-      <div class="cart-items">
-          <button class="btn btn-secondary btn-lg btn-block" onclick="genBill()">Generate Your Bill</button>
-      </div>
-      <div class="cart-total">
-        <strong class="cart-total">Total</strong>
-        <span class="cart-total-price">₹0</span>
-      </div>
-      <button class="btn btn-secondary btn-lg btn-block" type="button">PURCHASE</button>
-    </section>
-    <section id="member">
-    </section>
-    <script src="index.js"></script>
-  </body>
-</html>
+        <section class="container content-section">
+          <div class="cart-items">
+              <button class="btn btn-secondary btn-lg btn-block" onclick="genBill()">Generate Your Bill</button>
+          </div>
+          <div class="cart-total">
+            <strong class="cart-total">Total</strong>
+            <span class="cart-total-price">₹0</span>
+          </div>
+          <button class="btn btn-secondary btn-lg btn-block" type="button">PURCHASE</button>
+        </section>
+        <section id="member">
+        </section>
+        <script src="index.js"></script>
+      </body>
+    </html>
