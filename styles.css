@@ -122,7 +122,6 @@ h3{
 
 .bill-head{
   color: #ffff;
-  margin: 30px auto;
   background-color: #212121;
 }
 .tab{
@@ -144,4 +143,14 @@ h3{
 .cart-total{
   margin: 60px auto;
   font-size: 4rem;;
+}
+
+.col-last{
+  text-align: right;
+  font-size: 1.5rem;
+}
+.clock{
+  position: absolute;
+  right: 10px;
+  display: inline-block;
 }

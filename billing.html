@@ -43,31 +43,31 @@
           <table class="tab">
             <tr>
               <td>Blow Dry</td>
-              <td>₹50 <input type="checkbox" name="blowDry" onclick="addPrice(50)"></td>
+              <td>₹50 <input class="itemBill" type="checkbox" value="Blow Dry" onclick="addPrice(50, 0)"></td>
             </tr>
             <tr>
               <td>Blow Dry with Curling Iron/Flat Iron</td>
-              <td>₹100 <input type="checkbox" name="blowDry2" onclick="addPrice(100)"></td>
+              <td>₹100 <input class="itemBill" type="checkbox" value="Blow Dry(with Iron)" onclick="addPrice(100, 1)"></td>
             </tr>
             <tr>
               <td>Hair Cut With Curling/Flat Iron</td>
-              <td>₹600 <input type="checkbox" name="mensHairCut" onclick="addPrice(600)"></td>
+              <td>₹600 <input class="itemBill" type="checkbox" value="Hair Cut(with Iron)" onclick="addPrice(600, 2)"></td>
             </tr>
             <tr>
               <td>Mens Hair Cut</td>
-              <td>₹300 <input type="checkbox" name="hairCut" onclick="addPrice(300)"></td>
+              <td>₹300 <input class="itemBill" type="checkbox" value="Mens Hair Cut" onclick="addPrice(300, 3)"></td>
             </tr>
             <tr>
               <td>Mens Formal Hair Cut</td>
-              <td>₹500 <input type="checkbox" name="formalHairCut" onclick="addPrice(500)"></td>
+              <td>₹500 <input class="itemBill" type="checkbox" value="Mens Formal HairCut" onclick="addPrice(500, 4)"></td>
             </tr>
             <tr>
               <td>Mens Hair Makeover(3-Haircut)</td>
-              <td>₹1000 <input type="checkbox" name="mensTier01Pack" onclick="addPrice(1000)"></td>
+              <td>₹1000 <input class="itemBill" type="checkbox" value="Mens Tier01-Package" onclick="addPrice(1000, 5)"></td>
             </tr>
             <tr>
               <td>Mens Hair Makeover(5-Haircut)</td>
-              <td>₹1500 <input type="checkbox" name="formalHairCut" onclick="addPrice(1500)"></td>
+              <td>₹2000 <input class="itemBill" type="checkbox" value="Mens Tier02-Package" onclick="addPrice(2000, 6)"></td>
             </tr>
           </table>
           </div>
@@ -76,27 +76,27 @@
           <table class="tab">
             <tr>
               <td>Basic Tint</td>
-              <td>₹300 <input type="checkbox" name="basicTint" onclick="addPrice(300)"></td>
+              <td>₹300 <input class="itemBill" type="checkbox" value="Basic Tint" onclick="addPrice(300, 7)"></td>
             </tr>
             <tr>
               <td>Organic color</td>
-              <td>₹500 <input type="checkbox" name="organicColor"  onclick="addPrice(500)"></td>
+              <td>₹500 <input class="itemBill" type="checkbox" value="Organic Color"  onclick="addPrice(500, 8)"></td>
             </tr>
             <tr>
               <td>Full Highlights</td>
-              <td>₹2000 <input type="checkbox" name="fullHighlights" onclick="addPrice(2000)"></td>
+              <td>₹2000 <input class="itemBill" type="checkbox" value="FullHighlights" onclick="addPrice(2000, 9)"></td>
             </tr>
             <tr>
               <td>Partial Highlights</td>
-              <td>₹1500 <input type="checkbox" name="partialHiglights" onclick="addPrice(1500)"></td>
+              <td>₹1500 <input class="itemBill" type="checkbox" value="Partial Higlights" onclick="addPrice(1500, 10)"></td>
             </tr>
             <tr>
               <td>Gloss</td>
-              <td>₹400 <input type="checkbox" name="gloss" onclick="addPrice(400)"></td>
+              <td>₹400 <input class="itemBill" type="checkbox" value="Gloss" onclick="addPrice(400, 11)"></td>
             </tr>
             <tr>
               <td>Conditioning Treatment</td>
-              <td>₹200 <input type="checkbox" name="Conditioning" onclick="addPrice(200)"></td>
+              <td>₹200 <input class="itemBill" type="checkbox" value="Conditioning" onclick="addPrice(200, 12)"></td>
             </tr>
           </table>
         </div>
@@ -105,23 +105,23 @@
           <table class="tab">
             <tr>
               <td>Manicures</td>
-              <td>₹200 <input type="checkbox" name="Manicures" onclick="addPrice(200)"></td>
+              <td>₹200 <input class="itemBill" type="checkbox" value="Manicures" onclick="addPrice(200, 13)"></td>
             </tr>
             <tr>
               <td>Acrylic Full Set(Nail Art)</td>
-              <td>₹500 <input type="checkbox" name="AcrylicFullSet" onclick="addPrice(500)"></td>
+              <td>₹500 <input class="itemBill" type="checkbox" value="Acrylic FullSet" onclick="addPrice(500, 14)"></td>
             </tr>
             <tr>
               <td>Acrylic Fill</td>
-              <td>₹300 <input type="checkbox" name="AcrylicFill" onclick="addPrice(300)"></td>
+              <td>₹300 <input class="itemBill" type="checkbox" value="AcrylicFill" onclick="addPrice(300, 15)"></td>
             </tr>
             <tr>
               <td>Pink and White Full Set(nail Art)</td>
-              <td>₹400 <input type="checkbox" name="Pedicure" onclick="addPrice(400)"></td>
+              <td>₹400 <input class="itemBill" type="checkbox" value="Pedicure" onclick="addPrice(400, 16)"></td>
             </tr>
             <tr>
               <td>Manicure + Pedicure</td>
-              <td>₹500 <input type="checkbox" name="mani+padi" onclick="addPrice(500)"></td>
+              <td>₹500 <input class="itemBill" type="checkbox" value="Manicure + Pedicure" onclick="addPrice(500, 17)"></td>
             </tr>
           </table>
         </div>
@@ -130,27 +130,24 @@
           <table class="tab">
             <tr>
               <td>Rebonding</td>
-              <td>₹3000 <input type="checkbox" name="rebonding" onclick="addPrice(3000)"></td>
+              <td>₹3000 <input class="itemBill" type="checkbox" vlaue="Rebonding" onclick="addPrice(3000, 18)"></td>
             </tr>
             <tr>
               <td>Rebonding + Partial Highlights</td>
-              <td>₹4000 <input type="checkbox" name="reb+ParHigh" onclick="addPrice(4000)"></td>
+              <td>₹4000 <input class="itemBill" type="checkbox" value="Rebonding + Partial Highlights" onclick="addPrice(4000, 19)"></td>
             </tr>
             <tr>
               <td>Rebonding + Full Highlights</td>
-              <td>₹5000 <input type="checkbox" name="reb+FullHigh" onclick="addPrice(5000)"></td>
+              <td>₹5000 <input class="itemBill" type="checkbox" value="Rebonding + Full Highlights" onclick="addPrice(5000, 20)"></td>
             </tr>
           </table>
       </div>
         <section class="container content-section">
-          <div class="cart-items">
-              <button class="btn btn-secondary btn-lg btn-block" onclick="genBill()">Generate Your Bill</button>
-          </div>
           <div class="cart-total">
             <strong class="cart-total">Total</strong>
             <span class="cart-total-price">₹0</span>
           </div>
-          <button class="btn btn-secondary btn-lg btn-block" type="button">PURCHASE</button>
+          <a class="btn btn-secondary btn-lg btn-block" href="yourBill.html" role="button">GENERATE BILL</a>
         </section>
         <section id="member">
         </section>
