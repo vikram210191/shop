@@ -58,6 +58,9 @@
     </div>
     <p>Address: 259, Sector-19C, Chandigarh(U.T), India</p>
     <p>PIN: XXXXXXX Phone No. : +91-XXXXXXXXXX</p>
+    <div class="bill-invoice">
+        Bill Serial no.: <span id="invoice"></span>
+    </div>
     <table class="table">
         <thead>
             <tr>
@@ -134,8 +137,14 @@
                 <th scope="col"></th>
         </tfoot>
     </table>
-    <script>
 
+    <div class="bill-foot">
+        Signature with digital stamp:
+
+    </div>
+    <script>
+var randomNo = Math.floor(Math.random()*100000000000+1)
+document.getElementById('invoice').innerText = randomNo;
     </script>
 </body>
 

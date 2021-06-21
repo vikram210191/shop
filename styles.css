@@ -147,10 +147,28 @@ h3{
 
 .col-last{
   text-align: right;
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
 .clock{
   position: absolute;
   right: 10px;
   display: inline-block;
+}
+.bill-foot{
+  font-size: 1.5rem;
+  margin-top: 50px;
+  position: absolute;
+  right: 10px;
+  display: inline-block;
+  border: 2px black;
+  width: 800px;
+  height: 1000px;
+}
+
+
+.bill-invoice{
+  position: relative;
+  right: auto;
+  display: inline-block;
+  border: 2px black;
 }
