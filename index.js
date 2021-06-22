@@ -3,11 +3,7 @@ let billArray = [];
 let bill = 0;
 let item = [];
 let itemName;
-
-
 localStorage.clear();
-
-
 function addPrice(a, b){
     console.log(billArray.push(a));
     setTimeout(genBill,200);
@@ -18,11 +14,10 @@ function addPrice(a, b){
 }
 
 function genBill(){
+    
 for(i=0;i<billArray.length;i++){
     bill = bill + billArray[i];
 }
-
-
 billArray=[];
 document.querySelector('.cart-total-price').innerHTML=" ₹"+ bill;
 }
