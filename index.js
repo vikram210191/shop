@@ -14,10 +14,10 @@ function addPrice(a, b){
 }
 
 function genBill(){
-    
 for(i=0;i<billArray.length;i++){
     bill = bill + billArray[i];
 }
 billArray=[];
 document.querySelector('.cart-total-price').innerHTML=" ₹"+ bill;
+localStorage.setItem('ammount',  JSON.stringify(bill));
 }
